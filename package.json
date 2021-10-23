@@ -1,0 +1,38 @@
+{
+    "name": "social-network-api",
+    "version": "1.0.0",
+    "description": "We are building a social network app BE only with MoongoDB",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js",
+        "dev": "nodemon server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/UofTL/social-network-API.git"
+    },
+    "keywords": [
+        "MoongoDB",
+        "Mongoose",
+        "Social",
+        "Network",
+        "APP",
+        "Regex",
+        "Tutorial",
+        "CRUD",
+        "Insomnia"
+    ],
+    "author": "Eleonore Caclard",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/UofTL/social-network-API/issues"
+    },
+    "homepage": "https://github.com/UofTL/social-network-API#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "moment": "^2.29.1",
+        "mongoose": "^5.9.7",
+        "nodemon": "^2.0.14"
+    }
+}
