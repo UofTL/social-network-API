@@ -5,7 +5,7 @@ Repo URL:https://github.com/UofTL/social-network-API.git
 The app is an API for a social network using Express.js for routing, a MongoDB database, and the Mongoose ODM. We are also using moment package which is a date library.
 
 ## Walkthrough
-* ![markdown-preview-image](https://screencast-o-matic.com/watch/cr6ZbsVlhXj)
+[video](https://screencast-o-matic.com/watch/cr6ZbsVlhXj)
 ## Screen Shots
 
 ![image](https://user-images.githubusercontent.com/84641285/138606654-9dc8ac84-33b2-4799-badb-047210fcfda2.png)
