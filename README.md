@@ -5,11 +5,11 @@ Repo URL:https://github.com/UofTL/social-network-API.git
 The app is an API for a social network using Express.js for routing, a MongoDB database, and the Mongoose ODM. We are also using moment package which is a date library.
 
 ## Walkthrough
-* ![markdown-preview-image](videoLink)
+* ![markdown-preview-image](https://screencast-o-matic.com/watch/cr6ZbsVlhXj)
 ## Screen Shots
 
-![image](image)
-![image](image)
+![image](https://user-images.githubusercontent.com/84641285/138606654-9dc8ac84-33b2-4799-badb-047210fcfda2.png)
+![image](https://user-images.githubusercontent.com/84641285/138606692-4cbf8ea9-6b6d-4b9f-a55c-f6b621263b6b.png)
 ## User Story
 
 ```md
@@ -37,7 +37,7 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 - Insomnia
 - JavaScript
 - MongoDB
-- Screencastify 
+- Screenomatic
   
 - NPM Package:
   - Express

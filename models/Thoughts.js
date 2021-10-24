@@ -1,14 +1,13 @@
-// Require Mongoos and Moment
+// Require Mongoose and Moment
 const { Schema, model, Types } = require('mongoose');
 const moment = require('moment');
 
 // ReactionsSchema
-const ReactionsSchema = new Schema(
-    {
+const ReactionsSchema = new Schema({
     // Set custom ID 
     reactionId: {
         type: Schema.Types.ObjectId,
-        default: ()=> new Types.ObjectId()
+        default: () => new Types.ObjectId()
     },
     reactionBody: {
         type: String,
@@ -24,17 +23,14 @@ const ReactionsSchema = new Schema(
         default: Date.now,
         get: (createdAtVal) => moment(createdAtVal).format('MMM DD, YYYY [at] hh:mm a')
     }
-    },
-    {
+}, {
     toJSON: {
         getters: true
-    } 
     }
-);
+});
 
 // ThoughtsSchema
-const ThoughtsSchema = new Schema(
-    {
+const ThoughtsSchema = new Schema({
     thoughtText: {
         type: String,
         required: true,
@@ -53,15 +49,13 @@ const ThoughtsSchema = new Schema(
     },
     // Use ReactionsSchema to validate data
     reactions: [ReactionsSchema]
-    },
-    {
+}, {
     toJSON: {
         virtuals: true,
         getters: true
     },
     id: false
-    }
-)
+})
 
 // get total count of reactions
 ThoughtsSchema.virtual('reactionCount').get(function() {
